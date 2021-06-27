@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-               echo 'Welcome to Build'
+               sh 'mvn install'
                 // 
             }
         }
