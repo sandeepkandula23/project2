@@ -3,19 +3,19 @@ pipeline {
     stages {
         stage('Build') { 
             steps {
-              bat "mvn build"
+               echo 'Welcome to Build'
                 // 
             }
         }
         stage('Test') { 
             steps {
-                echo 'Welcome to LambdaTest1'
+                echo 'Welcome to Test1'
                 // 
             }
         }
         stage('Deploy') { 
             steps {
-                echo 'Welcome to LambdaTest2'
+                echo 'Welcome to Deploy'
                 // 
                 
             }
