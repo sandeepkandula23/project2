@@ -9,12 +9,15 @@ pipeline {
         }
         stage('Test') { 
             steps {
+                echo 'Welcome to LambdaTest1'
                 // 
             }
         }
         stage('Deploy') { 
             steps {
+                echo 'Welcome to LambdaTest2'
                 // 
+                
             }
         }
     }
